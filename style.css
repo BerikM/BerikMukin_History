@@ -15,7 +15,8 @@ button {
 
 body {
   font: normal 16px/1.5 "Helvetica Neue", sans-serif;
-  background: #456990;
+  background-image: url("images/bg.jpg");
+  background-size: auto auto;
   color: #fff;
 }
 
@@ -146,7 +147,7 @@ body {
 .timeline .arrows {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-top: 50px;
 }
 
 .timeline .arrows .arrow__prev {
